@@ -1,0 +1,8 @@
+:root{
+    background-image: url(../Imgs/Background-Root.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
