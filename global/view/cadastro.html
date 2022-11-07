@@ -16,22 +16,22 @@
 </head>
 <body>
     
-    <div class="container col-4 mt-5 ">
-        <form class="form-control p-4">
-            <h1 class="h3 text-center mb-3  font-weight-normal">Cadastre-se</h1>
-                <div class="row mb-3">
+    <div class="container col-sm-8 col-lg-4 mt-5 ">
+        <form action="../control/cadastro.php" method="POST" class="form-control p-3 pt-2 pb-2">
+            <h1 class="h3 text-center mb-2  font-weight-normal">Cadastre-se</h1>
+                <div class="row mb-2">
                     <div class="col">
-                        <input type="email" id="nome" class="form-control" placeholder="nome" required autofocus>
+                        <input type="text" id="nome" name="nome" class="form-control" placeholder="nome" required autofocus>
                     </div>
                     <div class="col">
-                        <input type="email" id="sobrenome" class="form-control" placeholder="sobrenome" required autofocus>
+                        <input type="text" id="sobrenome" name="sobrenome" class="form-control" placeholder="sobrenome" required autofocus>
                     </div>
                 </div>
-            <div class="mb-3">
-                <input type="tel" id="tel" class="form-control" placeholder="celular" required autofocus>
+            <div class="mb-2">
+                <input type="email" id="email" name="email" class="form-control" placeholder="E-mail ou celular" required autofocus>
             </div>
-            <div class="mb-3">
-                <input type="password" id="senha" placeholder="Nova senha" class="form-control" required>
+            <div class="mb-2">
+                <input type="password" id="senha" name="senha" placeholder="Nova senha" class="form-control" required>
             </div>
                 <div class="row">
                     <small class="">Data de nascimento</small>
@@ -86,7 +86,7 @@
                         <option value="Dezembro">Dezembro</option>
                     </select>
                   </div>
-                  <div class="col mb-3">
+                  <div class="col mb-2">
                     <select class="form-select" aria-label="Default select example" name="ano" id="ano">
                         <option value="">2022</option>
                         <option value="">2021</option>
@@ -115,16 +115,16 @@
                     </select>
                   </div>
                 </div>
-                <div class="row mb-3">
+                <div class="row mb-2">
                     <small>Gênero</small>
                     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off" checked>
                         <label class="btn btn-outline-primary" for="btnradio1">Femenino</label>
                       
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <input type="radio" class="btn-check" name="btnradio2" id="btnradio2" autocomplete="off">
                         <label class="btn btn-outline-primary" for="btnradio2">Masculino</label>
                       
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <input type="radio" class="btn-check" name="btnradio3" id="btnradio3" autocomplete="off">
                         <label class="btn btn-outline-primary" for="btnradio3">Personalizado</label>
                       </div>
                 </div>
@@ -132,8 +132,8 @@
                     <small>As pessoas que usam nosso serviço podem ter carregado suas informações de contato no Root. <a href="">Saiba mais</a>. <br>
                         Ao clicar em Cadastre-se, você concorda com nossos Termos, <a href="">Política de Privacidade</a> e <a href="">Política de Cookies</a> . Você poderá receber notificações por SMS e cancelar isso quando quiser.</small>
                 </div>
-            <div class="text-center mt-3">
-                <button class="btn btn-lg btn-danger btn-block">Cadastre-se</button>
+            <div class="text-center mt-2">
+                <button type="submit" name="submit" id="submit" class="btn btn-md btn-danger btn-block">Cadastre-se</button>
             </div>
             <div class="text-center mt-2">
                 <a href="../view/login.html">Ja tem conta? clique aqui.</a>
