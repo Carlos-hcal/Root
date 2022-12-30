@@ -42,7 +42,7 @@
                                     <div class="field field_v2 mb-3">
                                         <span class="icon_nome fa-solid fa-user"></span>
                                         <label for="nome" class="ha-screen-reader">Nome</label>
-                                        <input id="nome" class="field__input" placeholder="Carlos" required>
+                                        <input name="nome" id="nome" class="field__input" placeholder="Carlos" required>
                                         <span class="field__label-wrap" aria-hidden="true">
                                         <span class="field__label input_nome">Nome</span></span>
                                     </div>
@@ -51,7 +51,7 @@
                                     <div class="field field_v2 mb-3">
                                         <span class="icon_sobrenome fa-solid fa-plus"></span>
                                         <label for="sobrenome" class="ha-screen-reader">Sobrenome</label>
-                                        <input id="sobrenome" class="field__input" placeholder="Cort" required>
+                                        <input name="sobrenome" id="sobrenome" class="field__input" placeholder="Cort" required>
                                         <span class="field__label-wrap" aria-hidden="true">
                                         <span class="field__label">Sobrenome</span></span>
                                     </div>
@@ -63,14 +63,14 @@
                                 <div class="field field_v2 mb-3">
                                     <span class="icon_all fa-solid fa-envelope"></span>
                                     <label for="E-mail" class="ha-screen-reader">E-mail</label>
-                                    <input type="email" id="E-mail" class="field__input" placeholder="Root@gmail.com" required>
+                                    <input name="email" type="email" id="E-mail" class="field__input" placeholder="Root@gmail.com" required>
                                     <span class="field__label-wrap" aria-hidden="true">
                                     <span class="field__label">E-mail</span></span>
                                 </div>
                                 <div class="field field_v2 mb-3">
                                     <span class="icon_all fa-solid fa-lock"></span>
                                     <label for="Senha" class="ha-screen-reader">Senha</label>
-                                    <input type="password" id="Senha" class="field__input" placeholder="**********" required>
+                                    <input name="passoword" type="password" id="Senha" class="field__input" placeholder="**********" required>
                                     <span class="field__label-wrap" aria-hidden="true">
                                     <span class="field__label">Senha</span></span>
                                 </div>
@@ -84,19 +84,19 @@
                                 <div class="row">
                                     <div class="col field field_v2 mb-3">
                                         <label for="dia" class="ha-screen-reader">Dia</label>
-                                        <input type="datetime" id="dia" class="field__input" placeholder="01" required>
+                                        <input name="dia" type="datetime" id="dia" class="field__input" placeholder="01" required>
                                         <span class="field__label-wrap" aria-hidden="true">
                                         <span class="field__label">Dia</span></span>
                                     </div>
                                     <div class="col field field_v2 mb-3">
                                         <label for="mes" class="ha-screen-reader">Mês</label>
-                                        <input type="datetime" id="mes" class="field__input" placeholder="Janeiro" required>
+                                        <input name="mes" type="datetime" id="mes" class="field__input" placeholder="Janeiro" required>
                                         <span class="field__label-wrap" aria-hidden="true">
                                         <span class="field__label">Mês</span></span>
                                     </div>
                                     <div class="col field field_v2 mb-3">
                                         <label for="ano" class="ha-screen-reader">Ano</label>
-                                        <input type="datetime" id="ano" class="field__input" placeholder="2023" required>
+                                        <input name="ano" type="datetime" id="ano" class="field__input" placeholder="2023" required>
                                         <span class="field__label-wrap" aria-hidden="true">
                                         <span class="field__label">Ano</span></span>
                                     </div>
@@ -126,7 +126,7 @@
                             <div id="personalizado" class="col-12">
                                 <div class="row">
                                     <div class="pronome input-group mt-1 mb-3">
-                                        <select class="custom-select col-12 p-2 rounded-2 fw-semibold border-dark" id="pronome">
+                                        <select name="pronome" class="custom-select col-12 p-2 rounded-2 fw-semibold border-dark" id="pronome">
                                             <option value="selecione">Selecione seu "pronome"</option>
                                             <option value="ela">Feminino: "Deseje a ela um feliz aniversário"</option>
                                             <option value="ele">Masculino: "Deseje a ele um feliz aniversário"</option>
@@ -137,7 +137,7 @@
                                 <div class="row">
                                     <div class="genero field field_v2 mb-3">
                                         <label for="genero" class="ha-screen-reader">Gênero</label>
-                                        <input type="text" id="genero" class="field__input" placeholder="(Opcional)">
+                                        <input name="genero" type="text" id="genero" class="field__input" placeholder="(Opcional)">
                                         <span class="field__label-wrap" aria-hidden="true">
                                         <span class="field__label">Gênero</span><i class="icon_all fa-solid fa-pen"></i></span>
                                     </div>
@@ -151,7 +151,7 @@
                         </div>
 
                             <div class="mb-3">
-                                <button type="button" id="submit" class="botao_cadastro btn btn-dark btn-lg col-11">COMEÇAR</button>
+                                <button name="submit" type="button" id="submit" class="botao_cadastro btn btn-dark btn-lg col-11">COMEÇAR</button>
                             </div>
 
                             <div class="cadastro">
