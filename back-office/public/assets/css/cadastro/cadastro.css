@@ -14,29 +14,6 @@
     margin-left: 12rem;
 }
 
-/* ICONES INPUTS */
-
-.icon_nome{
-    left: 2px;
-    position: absolute;
-    font-size: 18px;
-    top: 20px;
-}
-
-.icon_sobrenome{
-    left: -20px;
-    position: absolute;
-    font-size: 18px;
-    top: 20px;
-}
-
-.icon_all{
-    left: 15px;
-    position: absolute;
-    font-size: 18px;
-    top: 15px;
-}
-
 /* LINKS */
 
 .links {
@@ -71,19 +48,8 @@
     padding-left: 1px;
 }
 
-.icon_gender{
-margin-right: 5px;
-}
-
-.lgbt{
-    display: flex;
-}
-.lgbt img{
-    width: 20px;
-    height: 20px;
-    margin-top: 3px;
-    margin-right: 5px;
-    margin-left: -5px;
+.politica{
+    width: 3px;
 }
 
 /* BOTÃO CADASTRO */

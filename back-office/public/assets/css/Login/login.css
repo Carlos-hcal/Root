@@ -26,48 +26,6 @@
     color: #161616;
 }
 
-/* ICONES INPUTS */
-
-.icon_input{
-    left: 20px;
-    position: absolute;
-    font-size: 18px;
-    top: 15px;
-}
-
-/* ICONES LOGIN */
-
-.icons_login a{
-    
-    text-decoration: none;
-}
-
-.twitter{
-    color: #00A0F1;
-    font-size: 35px;
-}
-.twitter:hover{
-    color: #0494db;
-}
-
-.google{
-    color: #C73626 ;
-    font-size: 35px;
-}
-.google:hover{
-    color: #bb3425 ;
-}
-
-.facebook{
-    color: #3681d6;
-    font-size: 35px;
-}
-.facebook:hover{
-    color: #3277c5;
-}
-
-
-
 /* BOTÃO LOGIN */
   
 .botao_login{

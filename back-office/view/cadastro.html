@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" type="text/css" href="../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/bootstrap-5/bootstrap.min.css">
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" type="text" href="../public/assets/css/all.min.css">
+    <link rel="stylesheet" type="text" href="../public/assets/font-awesome/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../public/assets/css/global.css">
@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="../public/assets/css/cadastro/cadastro.css">
     <link rel="stylesheet" type="text/css" href="../public/assets/css/cadastro/inputs.css">
     <link rel="stylesheet" type="text/scss" href="../public/assets/css/cadastro/select.scss">
+    <link rel="stylesheet" type="text/scss" href="../public/assets/css/cadastro/icons.css">
 
     <title>Root - Cadastre-se</title>
 </head>
@@ -30,7 +31,7 @@
                         <img src="../public/assets/imgs/Root_logo.svg" class="img-fluid" alt="Responsive image">
                     </div>
 
-                    <form method="post" class="cadastro rounded-4 form-control p-4">
+                    <form action="../control/cadastro.php" method="POST" class="cadastro rounded-4 form-control p-4">
                         <div>
                             <h1 class="h3 font-weight-normal">Cadastre-se</h1>
                             <a class="linha" href="#"></a>
@@ -69,8 +70,8 @@
                                 </div>
                                 <div class="field field_v2 mb-3">
                                     <span class="icon_all fa-solid fa-lock"></span>
-                                    <label for="Senha" class="ha-screen-reader">Senha</label>
-                                    <input name="passoword" type="password" id="Senha" class="field__input" placeholder="**********" required>
+                                    <label for="senha" class="ha-screen-reader">Senha</label>
+                                    <input name="senha" type="password" id="senha" class="field__input" placeholder="**********" required>
                                     <span class="field__label-wrap" aria-hidden="true">
                                     <span class="field__label">Senha</span></span>
                                 </div>
@@ -110,15 +111,15 @@
                             <div class="col-12">
                                 <div class="row mb-3">
                                     <div class="col genero">
-                                        <input type="radio" class=" btn-check" name="options" id="option1" autocomplete="off">
+                                        <input type="radio" class=" btn-check" name="options" id="option1" value="feminino" autocomplete="off">
                                         <label class="radio_gender btn btn-white btn-outline-dark fw-bold w-100" for="option1"><span class="icon_gender fa-solid fa-venus"></span>Feminino</label>
                                     </div>
                                     <div class="col genero">
-                                        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                                        <input type="radio" class="btn-check" name="options" id="option2" value="masculino" autocomplete="off">
                                         <label class="radio_gender btn btn-white btn-outline-dark fw-bold w-100" for="option2"><span class="icon_gender fa-solid fa-mars"></span>Masculino</label>                                    
                                     </div>
                                     <div class="col genero">
-                                        <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                                        <input type="radio" class="btn-check" name="options" id="option3" value="personalizado" autocomplete="off">
                                         <label class="lgbt btn btn-white btn-outline-dark fw-bold w-100" for="option3"><img src="../public/assets/imgs/heart.png" alt="Responsive image">Personalizado</label>                                   
                                     </div>
                                 </div>
