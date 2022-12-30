@@ -1,0 +1,101 @@
+/* FORMULARIO */
+
+.formulario{
+    border: #ffffff;
+}
+
+.linha{
+    border-radius: 10px;
+    height: 3px;
+    position: static;
+    background-color: #212529;
+    display: block;
+    width: 19%;
+    margin-left: 12rem;
+}
+
+/* ICONES INPUTS */
+
+.icon_nome{
+    left: 2px;
+    position: absolute;
+    font-size: 18px;
+    top: 20px;
+}
+
+.icon_sobrenome{
+    left: -20px;
+    position: absolute;
+    font-size: 18px;
+    top: 20px;
+}
+
+.icon_all{
+    left: 15px;
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+}
+
+/* LINKS */
+
+.links {
+    color: #797979;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.links:hover{
+    color: #161616;
+}
+
+.termo {
+    color: #385898;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.termo:hover{
+    color: #385898;
+    text-decoration: underline;
+}
+
+/* INPUT RADIO  */
+
+.genero{
+    margin: -8px;
+}
+
+.radio_gender{
+    padding-right: 0px;
+    padding-left: 1px;
+}
+
+.icon_gender{
+margin-right: 5px;
+}
+
+.lgbt{
+    display: flex;
+}
+.lgbt img{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+/* BOTÃO CADASTRO */
+  
+.botao_cadastro{
+    font-size: medium;
+    font-weight: 500;
+    background-color: #292129;
+    border-radius: 0px;
+    border: 1px solid #070707;
+}
+.botao_cadastro:hover{
+    background-color: #1a1919;
+    border: 1px solid #070707;
+}

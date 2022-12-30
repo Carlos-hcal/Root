@@ -1,8 +1,16 @@
-/* .imagem_fundo{
-    background-image: url(../Imgs/Background-Root.jpg);
+body{
+    background-image: url(../imgs/Root_wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* body{
+    background: #161616;
 } */
+
